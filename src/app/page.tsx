@@ -86,7 +86,7 @@ export default function LandingPage() {
               title: "Trusted Quality",              description: "4.7★ rating from 60+ verified customer reviews",              icon: Star
             }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=1cypij"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=1cypij&_wi=1"
           imageAlt="Cozy Piccolo Potato's restaurant interior"
           mediaAnimation="blur-reveal"
           imagePosition="right"
@@ -216,7 +216,7 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           background={{ variant: "plain" }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=1cypij"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=1cypij&_wi=2"
           imageAlt="Piccolo Potato's location"
           mediaAnimation="blur-reveal"
           mediaPosition="right"
