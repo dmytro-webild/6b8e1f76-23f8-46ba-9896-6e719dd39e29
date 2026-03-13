@@ -19,7 +19,7 @@ export default function LandingPage() {
       borderRadius="pill"
       contentWidth="smallMedium"
       sizing="largeSmallSizeMediumTitles"
-      background="grid"
+      background="circleGradient"
       cardStyle="glass-elevated"
       primaryButtonStyle="shadow"
       secondaryButtonStyle="glass"
@@ -45,7 +45,7 @@ export default function LandingPage() {
         <HeroBillboardScroll
           title="Piccolo Potato's – Taste the Local Difference"
           description="4.7★ Rated • Freshly prepared street-style meals • Fast, friendly service • Perfect for families, students & professionals"
-          background={{ variant: "grid" }}
+          background={{ variant: "animated-grid" }}
           tag="🔥 Local Favorite"
           tagIcon={Flame}
           tagAnimation="slide-up"
@@ -86,7 +86,7 @@ export default function LandingPage() {
               title: "Trusted Quality",              description: "4.7★ rating from 60+ verified customer reviews",              icon: Star
             }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=1cypij&_wi=1"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=1cypij"
           imageAlt="Cozy Piccolo Potato's restaurant interior"
           mediaAnimation="blur-reveal"
           imagePosition="right"
@@ -216,7 +216,7 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           background={{ variant: "plain" }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=1cypij&_wi=2"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=1cypij"
           imageAlt="Piccolo Potato's location"
           mediaAnimation="blur-reveal"
           mediaPosition="right"
